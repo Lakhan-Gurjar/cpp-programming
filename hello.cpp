@@ -1,7 +1,6 @@
 #include <iostream>
 
 int main() {
-   int a = 5, b = 5;
-   std::cout << "sum = " << a + b; 
+   std::cout << "Hello Programmer!"; 
    return 0;
 }
