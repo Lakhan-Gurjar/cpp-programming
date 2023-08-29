@@ -8,15 +8,15 @@ int main ()
     cout << "Tell me your age"<<endl;
     cin >> age;
     // Selection control structure : If-else ladder 
-    // if(age<18){
-    //     cout <<"You can not come to my party" <<endl;
-    // }
-    // else if (age == 18){
-    //     cout <<"You are a kid and you wil get a kid pass to the party" <<endl;
-    // }
-    // else {
-    //     cout << "You can come to the party"<<endl;
-    // }
+    if(age<18){
+        cout <<"You can not come to my party" <<endl;
+    }
+    else if (age == 18){
+        cout <<"You are a kid and you wil get a kid pass to the party" <<endl;
+    }
+    else {
+        cout << "You can come to the party"<<endl;
+    }
 
     // Selection control structure : Switch case statements
     switch (age)
